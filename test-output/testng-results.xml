@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-08T12:01:12 GMT" name="Default Suite" finished-at="2023-12-08T12:01:16 GMT" duration-ms="3588">
+    <groups>
+    </groups>
+    <test started-at="2023-12-08T12:01:12 GMT" name="sample-maven-project" finished-at="2023-12-08T12:01:16 GMT" duration-ms="3588">
+      <class name="com.nopcommerce.demo.testsuite.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginTest@27ae2fd0]" started-at="2023-12-08T12:01:12 GMT" name="setUp" finished-at="2023-12-08T12:01:15 GMT" duration-ms="2917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserShouldNavigateToLoginPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginTest@27ae2fd0]" started-at="2023-12-08T12:01:15 GMT" name="verifyUserShouldNavigateToLoginPageSuccessfully" finished-at="2023-12-08T12:01:16 GMT" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToLoginPageSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginTest@27ae2fd0]" started-at="2023-12-08T12:01:16 GMT" name="tearDown" finished-at="2023-12-08T12:01:16 GMT" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.testsuite.LoginTest -->
+    </test> <!-- sample-maven-project -->
+  </suite> <!-- Default Suite -->
+</testng-results>
