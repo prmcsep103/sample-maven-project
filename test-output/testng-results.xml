@@ -1,25 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-08T12:01:12 GMT" name="Default Suite" finished-at="2023-12-08T12:01:16 GMT" duration-ms="3588">
+  <suite started-at="2023-12-09T11:55:29 GMT" name="testsuite" finished-at="2023-12-09T11:55:40 GMT" duration-ms="10529">
     <groups>
     </groups>
-    <test started-at="2023-12-08T12:01:12 GMT" name="sample-maven-project" finished-at="2023-12-08T12:01:16 GMT" duration-ms="3588">
+    <test started-at="2023-12-09T11:55:29 GMT" name="Login Test" finished-at="2023-12-09T11:55:40 GMT" duration-ms="10529">
       <class name="com.nopcommerce.demo.testsuite.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginTest@27ae2fd0]" started-at="2023-12-08T12:01:12 GMT" name="setUp" finished-at="2023-12-08T12:01:15 GMT" duration-ms="2917" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginTest@6e0dec4a]" started-at="2023-12-09T11:55:29 GMT" name="setUp" finished-at="2023-12-09T11:55:33 GMT" duration-ms="3923" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyUserShouldNavigateToLoginPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginTest@27ae2fd0]" started-at="2023-12-08T12:01:15 GMT" name="verifyUserShouldNavigateToLoginPageSuccessfully" finished-at="2023-12-08T12:01:16 GMT" duration-ms="476" status="PASS">
+        <test-method signature="verifyErrorMessageWithInvalidCredentials()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginTest@6e0dec4a]" started-at="2023-12-09T11:55:33 GMT" name="verifyErrorMessageWithInvalidCredentials" finished-at="2023-12-09T11:55:35 GMT" duration-ms="1548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyErrorMessageWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginTest@6e0dec4a]" started-at="2023-12-09T11:55:35 GMT" name="tearDown" finished-at="2023-12-09T11:55:35 GMT" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginTest@6e0dec4a]" started-at="2023-12-09T11:55:35 GMT" name="setUp" finished-at="2023-12-09T11:55:39 GMT" duration-ms="3289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyUserShouldNavigateToLoginPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginTest@6e0dec4a]" started-at="2023-12-09T11:55:39 GMT" name="verifyUserShouldNavigateToLoginPageSuccessfully" finished-at="2023-12-09T11:55:39 GMT" duration-ms="771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserShouldNavigateToLoginPageSuccessfully -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginTest@27ae2fd0]" started-at="2023-12-08T12:01:16 GMT" name="tearDown" finished-at="2023-12-08T12:01:16 GMT" duration-ms="155" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginTest@6e0dec4a]" started-at="2023-12-09T11:55:39 GMT" name="tearDown" finished-at="2023-12-09T11:55:40 GMT" duration-ms="453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.nopcommerce.demo.testsuite.LoginTest -->
-    </test> <!-- sample-maven-project -->
-  </suite> <!-- Default Suite -->
+      <class name="com.nopcommerce.demo.testng.TestNGDemo">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.nopcommerce.demo.testng.TestNGDemo@2ddc8ecb]" started-at="2023-12-09T11:55:29 GMT" name="beforeTest" finished-at="2023-12-09T11:55:29 GMT" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.nopcommerce.demo.testng.TestNGDemo@2ddc8ecb]" started-at="2023-12-09T11:55:29 GMT" name="beforeMethod" finished-at="2023-12-09T11:55:29 GMT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:com.nopcommerce.demo.testng.TestNGDemo@2ddc8ecb]" started-at="2023-12-09T11:55:29 GMT" name="test1" finished-at="2023-12-09T11:55:29 GMT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.nopcommerce.demo.testng.TestNGDemo@2ddc8ecb]" started-at="2023-12-09T11:55:29 GMT" name="afterMethod" finished-at="2023-12-09T11:55:29 GMT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.nopcommerce.demo.testng.TestNGDemo@2ddc8ecb]" started-at="2023-12-09T11:55:29 GMT" name="beforeMethod" finished-at="2023-12-09T11:55:29 GMT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:0, instance:com.nopcommerce.demo.testng.TestNGDemo@2ddc8ecb]" started-at="2023-12-09T11:55:29 GMT" name="test2" finished-at="2023-12-09T11:55:29 GMT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.nopcommerce.demo.testng.TestNGDemo@2ddc8ecb]" started-at="2023-12-09T11:55:29 GMT" name="afterMethod" finished-at="2023-12-09T11:55:29 GMT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.nopcommerce.demo.testng.TestNGDemo@2ddc8ecb]" started-at="2023-12-09T11:55:40 GMT" name="afterTest" finished-at="2023-12-09T11:55:40 GMT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.nopcommerce.demo.testng.TestNGDemo -->
+    </test> <!-- Login Test -->
+  </suite> <!-- testsuite -->
 </testng-results>

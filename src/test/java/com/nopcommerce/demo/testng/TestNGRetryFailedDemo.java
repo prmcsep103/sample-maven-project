@@ -13,9 +13,10 @@ public class TestNGRetryFailedDemo {
         System.out.println("I am in test1");
     }
 
-    @Test()
+    @Test(retryAnalyzer = RetryAnalyser.class)
     public void test2(){
         System.out.println("I am in test2");
+        Assert.fail();
     }
 
     @Test()

@@ -25,6 +25,12 @@ public class Utility extends ManageBrowser {
         loginLink.click();
     }
 
+    public void clickOnElement(WebElement element) {
+        element.click();
+    }
+
+
+
     /**
      * This method will get text from element
      */
@@ -32,11 +38,19 @@ public class Utility extends ManageBrowser {
         return driver.findElement(by).getText();
     }
 
+    public String getTextFromElement(WebElement element) {
+        return element.getText();
+    }
+
     /**
      * This method will send text on element
      */
     public void sendTextToElement(By by, String text) {
         driver.findElement(by).sendKeys(text);
+    }
+
+    public void sendTextToElement(WebElement element, String text) {
+        element.sendKeys(text);
     }
 
 //************************* Alert Methods *****************************************************

@@ -8,7 +8,7 @@ import org.openqa.selenium.By;
  */
 public class  LoginPage extends Utility {
     By welcomeText = By.xpath("//h1[contains(text(),'Welcome, Please Sign In!')]");
-    By emailField = By.id("Email1");
+    By emailField = By.id("Email");
     By passwordField = By.name("Password");
     By loginButton = By.xpath("//button[contains(text(),'Log in')]");
     By errorMessage = By.xpath("//div[@class='message-error validation-summary-errors']");
@@ -32,5 +32,12 @@ public class  LoginPage extends Utility {
     public String getErrorMessage(){
         return getTextFromElement(errorMessage);
     }
+
+    public void loginToApplication(String username, String password){
+        enterEmailId(username);
+        enterPassword(password);
+        clickOnLoginButton();
+    }
+
 
 }
