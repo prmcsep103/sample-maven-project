@@ -17,7 +17,7 @@ public class LoginTest extends BaseTest {
     @Test
     public void verifyUserShouldNavigateToLoginPageSuccessfully(){
         homePage.clickOnLoginLink();
-        String expectedText = "Welcome, Please Sign In!";
+        String expectedText = "Welcome, Please Sign In";
         String actualText = loginPage.getWelcomeText();
         Assert.assertEquals(actualText, expectedText, "Not redirected to Login page");
     }

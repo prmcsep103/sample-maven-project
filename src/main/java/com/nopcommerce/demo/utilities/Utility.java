@@ -223,4 +223,8 @@ public class Utility extends ManageBrowser {
         }
         return destination;
     }
+
+    public static void main(String[] args) {
+        System.out.println(currentTimeStamp());
+    }
 }

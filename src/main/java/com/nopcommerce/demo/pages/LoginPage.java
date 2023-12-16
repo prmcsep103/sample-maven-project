@@ -2,6 +2,7 @@ package com.nopcommerce.demo.pages;
 
 import com.nopcommerce.demo.utilities.Utility;
 import org.openqa.selenium.By;
+import org.testng.Reporter;
 
 /**
  * Created by Jay Vaghani
@@ -18,14 +19,17 @@ public class  LoginPage extends Utility {
     }
 
     public void enterEmailId(String email){
+        Reporter.log("Enter email " + email + " to email field " + emailField.toString());
         sendTextToElement(emailField, email);
     }
 
     public void enterPassword(String password){
+        Reporter.log("Enter password " + password + " to password field " + passwordField.toString());
         sendTextToElement(passwordField, password);
     }
 
     public void clickOnLoginButton(){
+        Reporter.log("Clicking on Login Button " + loginButton.toString());
         clickOnElement(loginButton);
     }
 
